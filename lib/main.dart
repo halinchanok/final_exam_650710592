@@ -1,3 +1,5 @@
+import 'package:final_exam_650710592/answer1.dart';
+import 'package:final_exam_650710592/answer2.dart';
 import 'package:final_exam_650710592/homepage.dart';
 import 'package:flutter/material.dart';
 
@@ -31,7 +33,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Homepage(),
+      home: Answer2(),
     );
   }
 }
